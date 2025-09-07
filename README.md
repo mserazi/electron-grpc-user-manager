@@ -21,35 +21,6 @@ electron-grpc-user-manager/
 └── README.md              # This file
 ```
 
-## Setup Instructions
-
-### 1. Create Project Directory
-```bash
-mkdir electron-grpc-user-manager
-cd electron-grpc-user-manager
-```
-
-### 2. Initialize and Install Dependencies
-```bash
-npm init -y
-# Copy the package.json content from above, then run:
-npm install
-```
-
-### 3. Create Directory Structure
-```bash
-mkdir -p src/proto src/server src/renderer
-```
-
-### 4. Create Files
-Create the following files with their respective content:
-
-- `src/proto/user.proto` - Protocol Buffer definition
-- `src/server/server.js` - gRPC server implementation  
-- `src/main.js` - Electron main process
-- `src/preload.js` - Preload script for secure IPC
-- `src/renderer/index.html` - User interface
-
 ## ✨ Features
 
 - **🖥️ Cross-Platform Desktop App**: Built with Electron for Windows, macOS, and Linux
@@ -164,7 +135,7 @@ cd electron-client && npm start
 ### Full Setup
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone git@github.com:mserazi/electron-grpc-user-manager.git
 cd electron-grpc-user-manager
 
 # Setup Electron Client
